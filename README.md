@@ -13,7 +13,7 @@ AI hairstyle preview — upload a selfie, pick a style or write a custom prompt,
 
 - **Download:** [App Store](https://apps.apple.com/app/id6745742590)
 - **Detail page:** [hairLens.html](https://shubhamraj2202.github.io/hairLens.html)
-- **Technology:** Gemini 2.5 Flash Image · SwiftUI · StoreKit 2 · Cloudflare Workers
+- **Technology:** SwiftUI · StoreKit 2 · Cloudflare Workers
 - **Pricing:** Credit-based — 3 free on install, top up via Apple IAP
 - **Privacy:** [hairLens-privacy.html](https://shubhamraj2202.github.io/hairLens-privacy.html)
 - **Terms:** [hairLens-terms.html](https://shubhamraj2202.github.io/hairLens-terms.html)
@@ -23,7 +23,7 @@ AI-powered food scanner that instantly identifies vegan and vegetarian ingredien
 
 - **Download:** [App Store](https://apps.apple.com/us/app/veggielens/id6747918779)
 - **Detail page:** [veggieLens.html](https://shubhamraj2202.github.io/veggieLens.html)
-- **Technology:** Google Gemini AI · SwiftUI · AdMob
+- **Technology:** SwiftUI · AdMob
 - **Privacy:** [veggieLens-privacy.html](https://shubhamraj2202.github.io/veggieLens-privacy.html)
 - **Terms:** [veggieLens-terms.html](https://shubhamraj2202.github.io/veggieLens-terms.html)
 
