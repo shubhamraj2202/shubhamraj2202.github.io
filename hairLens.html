@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Lens - AI | Hairstyle Preview App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+</head>
+
+<body>
+    <div class="cosmic-background">
+        <div class="stars"></div>
+        <div class="floating-particles"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="hairLens.html" style="display: flex; align-items: center; gap: 0.5rem; text-decoration: none; color: inherit;">
+                    <span class="brand-icon">💇</span>
+                    <span class="brand-text">Hair Lens - AI</span>
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Meet Developer</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="app-detail-page">
+        <section class="app-hero">
+            <div class="container">
+                <div class="app-overview">
+                    <div class="app-icon-large">💇</div>
+                    <h1 class="app-title">Hair Lens - AI</h1>
+                    <p class="app-tagline">See yourself with any hairstyle before you commit.</p>
+                    <div class="app-store-buttons">
+                        <a href="https://apps.apple.com/app/id6745742590" target="_blank" class="btn btn-primary">
+                            <span>Download on App Store</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="app-metrics">
+            <div class="container">
+                <div class="metrics-grid">
+                    <div class="metric-item">
+                        <span class="metric-number">3</span>
+                        <span class="metric-label">Free Credits on Install</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-number">20+</span>
+                        <span class="metric-label">Curated Styles</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-number">AI</span>
+                        <span class="metric-label">Gemini 2.5 Flash</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="app-features">
+            <div class="container">
+                <h2 class="section-title">Key Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🪞</div>
+                        <h3>Identity Preservation</h3>
+                        <p>Only your hair changes — face, skin tone, and expression stay exactly the same. No filter look.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">↔️</div>
+                        <h3>Before / After Slider</h3>
+                        <p>Drag to compare your original photo against the AI-generated hairstyle side by side.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💬</div>
+                        <h3>Custom Text Prompts</h3>
+                        <p>Describe any style in your own words — "short wavy bob with highlights" — and the AI builds it.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📚</div>
+                        <h3>Curated Style Catalog</h3>
+                        <p>20+ professionally curated styles weighted toward Indian wedding looks and Japanese salon styles.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🏪</div>
+                        <h3>Credit-Based Pricing</h3>
+                        <p>No subscription. Buy only what you need — 3 free credits on install, top up anytime via Apple IAP.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3>Privacy First</h3>
+                        <p>No account required. Photos are processed and immediately discarded — never stored on our servers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="app-about">
+            <div class="container">
+                <h2 class="section-title">About Hair Lens - AI</h2>
+                <p>Most hairstyle preview apps fail the same way — the result looks like a bad filter or a wig dropped
+                    on your head. Hair Lens - AI was built around a single obsession: keeping your face exactly as it
+                    is while transforming only the hair. The result is a photorealistic preview you can actually bring
+                    to your barber or salon.</p>
+                <p>Built natively for iOS with SwiftUI and powered by Google Gemini 2.5 Flash Image, the entire
+                    generation pipeline runs through a Cloudflare Worker proxy — so your API keys never touch the
+                    device and your photos are never retained after the response is delivered.</p>
+            </div>
+        </section>
+
+        <section class="app-tech">
+            <div class="container">
+                <h2 class="section-title">Tech Stack</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">📱</div>
+                        <h3>SwiftUI + SwiftData</h3>
+                        <p>Native iOS 18 app — zero third-party dependencies on the client.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🤖</div>
+                        <h3>Gemini AI</h3>
+                        <p>Google Gemini 2.5 Flash Image model for photorealistic hairstyle generation.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">☁️</div>
+                        <h3>Cloudflare Workers</h3>
+                        <p>Serverless proxy handles rate limiting, credit ledger, and prompt assembly.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💳</div>
+                        <h3>StoreKit 2</h3>
+                        <p>Apple-native in-app purchases — secure, receipt-validated credit top-ups.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Legal Links Section -->
+        <section class="app-legal-links">
+            <div class="container">
+                <h2 class="section-title">Important Information</h2>
+                <div class="legal-links-grid">
+                    <a href="hairLens-terms.html" class="legal-card">
+                        <div class="legal-icon">📄</div>
+                        <h3>Terms of Use</h3>
+                        <p>Understand the terms governing your use of Hair Lens - AI.</p>
+                    </a>
+                    <a href="hairLens-privacy.html" class="legal-card">
+                        <div class="legal-icon">🔒</div>
+                        <h3>Privacy Policy</h3>
+                        <p>Learn how your photos and data are handled and protected.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="brand-icon">💇</span>
+                    <span>Hair Lens - AI</span>
+                </div>
+                <div class="footer-links">
+                    <a href="hairLens-terms.html">Terms</a>
+                    <a href="hairLens-privacy.html">Privacy</a>
+                </div>
+                <div class="footer-tagline">
+                    <p>See yourself with any hairstyle before you commit.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,29 +1,39 @@
-# Aurax AI
+# Shubham Raj — Portfolio & App Pages
 
-Welcome to Aurax AI - where artificial intelligence meets mobile innovation.
+Personal portfolio and legal pages for iOS apps by Shubham Raj.
 
-## Our Applications
-
-### 🥬 VeggieLens
-AI-powered food scanner that instantly identifies vegan and vegetarian ingredients.
-
-- **📱 Download:** [App Store](https://apps.apple.com/jp/app/veggielens/id6747918779?l=en-US)
-- **🤖 Technology:** Google Gemini AI for food analysis
-- **🌱 Purpose:** Making plant-based eating easier and more accessible
-
-## About Aurax AI
-
-We develop intelligent mobile applications that solve real-world problems using cutting-edge AI technology. Our focus is on creating user-friendly apps that make complex AI capabilities accessible to everyone.
-
-## Contact
-
-- **Email:** aurax.ai108@gmail.com
-- **Support:** [VeggieLens Help Center](https://sites.google.com/view/aurax-ai-veggie-lens-help/home)
-
-## Apps Privacy & Policies
-
-Individual app privacy policies and terms of service can be found in their respective directories.
+**Live site:** [shubhamraj2202.github.io](https://shubhamraj2202.github.io)
 
 ---
 
-*© 2024 Aurax AI. Building the future of AI-powered mobile experiences.*
+## Apps
+
+### 💇 Hair Lens - AI
+AI hairstyle preview — upload a selfie, pick a style or write a custom prompt, and see yourself with that haircut. Only the hair changes; face is preserved.
+
+- **Download:** [App Store](https://apps.apple.com/app/id6745742590)
+- **Detail page:** [hairLens.html](https://shubhamraj2202.github.io/hairLens.html)
+- **Technology:** Gemini 2.5 Flash Image · SwiftUI · StoreKit 2 · Cloudflare Workers
+- **Pricing:** Credit-based — 3 free on install, top up via Apple IAP
+- **Privacy:** [hairLens-privacy.html](https://shubhamraj2202.github.io/hairLens-privacy.html)
+- **Terms:** [hairLens-terms.html](https://shubhamraj2202.github.io/hairLens-terms.html)
+
+### 🌱 VeggieLens
+AI-powered food scanner that instantly identifies vegan and vegetarian ingredients.
+
+- **Download:** [App Store](https://apps.apple.com/us/app/veggielens/id6747918779)
+- **Detail page:** [veggieLens.html](https://shubhamraj2202.github.io/veggieLens.html)
+- **Technology:** Google Gemini AI · SwiftUI · AdMob
+- **Privacy:** [veggieLens-privacy.html](https://shubhamraj2202.github.io/veggieLens-privacy.html)
+- **Terms:** [veggieLens-terms.html](https://shubhamraj2202.github.io/veggieLens-terms.html)
+
+---
+
+## Contact
+
+- **Email:** shubhamraj2202@gmail.com
+- **GitHub:** [github.com/shubhamraj2202](https://github.com/shubhamraj2202)
+
+---
+
+*© 2026 Shubham Raj. Building solutions for everyday problems.*
