@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Hair Lens - AI</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .legal-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 6rem 2rem 4rem;
+            line-height: 1.8;
+        }
+
+        .legal-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 1rem;
+            background: var(--cosmic-gradient);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .effective-date {
+            text-align: center;
+            color: var(--cosmic-text-dim);
+            margin-bottom: 3rem;
+            font-style: italic;
+        }
+
+        .legal-section {
+            margin-bottom: 2.5rem;
+            padding: 2rem;
+            background: rgba(26, 27, 58, 0.3);
+            border-radius: 15px;
+            border-left: 4px solid var(--cosmic-accent);
+        }
+
+        .legal-section h2 {
+            color: white;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .legal-section p {
+            margin-bottom: 1rem;
+            color: var(--cosmic-text);
+        }
+
+        .legal-section ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .legal-section li {
+            margin-bottom: 0.5rem;
+            color: var(--cosmic-text-dim);
+        }
+
+        .contact-info {
+            background: rgba(16, 185, 129, 0.1);
+            border-left-color: var(--cosmic-accent);
+            text-align: center;
+        }
+
+        .contact-email {
+            color: var(--cosmic-accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-email:hover {
+            text-shadow: 0 0 10px rgba(16, 185, 129, 0.8);
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--cosmic-primary);
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .back-link:hover {
+            transform: translateX(-5px);
+            text-shadow: 0 0 10px rgba(139, 92, 246, 0.8);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cosmic-background">
+        <div class="stars"></div>
+        <div class="floating-particles"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="index.html" style="display: flex; align-items: center; gap: 0.5rem; text-decoration: none; color: inherit;">
+                    <span class="brand-icon">💇</span>
+                    <span class="brand-text">Hair Lens - AI</span>
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Meet Developer</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="legal-content">
+
+        <h1 class="legal-title">Privacy Policy</h1>
+        <p class="effective-date">Effective Date: May 20, 2026</p>
+
+        <div class="legal-section">
+            <h2>1. Data Collection Overview</h2>
+            <p>Hair Lens - AI is designed with your privacy in mind. We collect only the minimal data necessary to
+                provide our AI hairstyle preview service.</p>
+            <ul>
+                <li>Photos (selfies) you upload are sent to our API for AI-powered hairstyle generation and are
+                    <strong>not retained</strong> after the response is returned</li>
+                <li>Purchase receipts are processed locally via Apple StoreKit 2 solely for credit validation</li>
+                <li>A device identifier is used for rate limiting to prevent abuse — it is not linked to any
+                    personal information</li>
+                <li>No account or login is required to use the app</li>
+                <li>No personally identifiable information is collected beyond what is described above</li>
+            </ul>
+        </div>
+
+        <div class="legal-section">
+            <h2>2. How We Use Your Photos</h2>
+            <p>When you upload a selfie, it is transmitted securely to our server and forwarded to Google's Gemini
+                AI for hairstyle generation. The AI modifies only the hair region while preserving your face.</p>
+            <ul>
+                <li>Photos are processed in real time and are <strong>not stored</strong> on our servers</li>
+                <li>Generated preview images are returned directly to your device</li>
+                <li>We do not use your photos for training AI models</li>
+                <li>We do not share your photos with any third party other than Google Gemini AI for the sole
+                    purpose of processing your request</li>
+            </ul>
+        </div>
+
+        <div class="legal-section">
+            <h2>3. Third-Party Services</h2>
+            <p>Hair Lens - AI integrates with the following third-party services:</p>
+            <ul>
+                <li><strong>Google Gemini AI:</strong> Used for AI-powered hairstyle image generation. Images are
+                    processed per Google's API data handling policies and are not retained.</li>
+                <li><strong>Apple StoreKit 2:</strong> Handles all in-app purchase transactions for credits.
+                    Payment data is managed entirely by Apple and is never seen by Hair Lens - AI.</li>
+                <li><strong>Cloudflare Workers:</strong> Our serverless API infrastructure processes requests and
+                    applies rate limiting using your device identifier.</li>
+            </ul>
+        </div>
+
+        <div class="legal-section">
+            <h2>4. In-App Purchases & Credits</h2>
+            <p>Hair Lens - AI uses a credit-based system. Credits are purchased through Apple's in-app purchase
+                system (StoreKit 2). We receive only a purchase receipt to validate and credit your account — no
+                payment card or financial details are accessible to us.</p>
+        </div>
+
+        <div class="legal-section">
+            <h2>5. Children's Privacy</h2>
+            <p>Our app does not knowingly collect personally identifiable information from children under 13. If we
+                discover that a child under 13 has provided us with personal information, we will delete such
+                information immediately. Please contact us if you believe this has occurred.</p>
+        </div>
+
+        <div class="legal-section">
+            <h2>6. Data Security</h2>
+            <p>All photo uploads are transmitted over HTTPS. We strive to use commercially acceptable means of
+                protecting your data. However, no method of transmission over the internet or electronic storage is
+                100% secure, and we cannot guarantee absolute security.</p>
+        </div>
+
+        <div class="legal-section">
+            <h2>7. Data Retention</h2>
+            <p>Hair Lens - AI does not retain photos on our servers after processing is complete. Credit balances
+                and device identifiers used for rate limiting are stored only as long as necessary to operate the
+                service. You can remove all local app data by deleting the app from your device.</p>
+        </div>
+
+        <div class="legal-section">
+            <h2>8. Your Rights</h2>
+            <p>You have the right to:</p>
+            <ul>
+                <li>Know what data we collect (as described in this policy)</li>
+                <li>Request deletion of any data associated with your device identifier</li>
+                <li>Contact us with any privacy concerns or questions</li>
+            </ul>
+        </div>
+
+        <div class="legal-section">
+            <h2>9. Privacy Policy Updates</h2>
+            <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting
+                the new Privacy Policy on this page and updating the effective date. Continued use of the app
+                after changes constitutes acceptance of the updated policy.</p>
+        </div>
+
+        <div class="legal-section contact-info">
+            <h2>10. Contact Us</h2>
+            <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+            <p><a href="mailto:shubhamraj2202@gmail.com" class="contact-email">shubhamraj2202@gmail.com</a></p>
+            <p style="margin-top: 1rem; color: var(--cosmic-text-dim);">Developer: Shubham Raj</p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="brand-icon">💇</span>
+                    <span>Hair Lens - AI</span>
+                </div>
+                <div class="footer-links">
+                    <a href="hairLens-terms.html">Terms</a>
+                    <a href="hairLens-privacy.html">Privacy</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Shubham Raj. Made with cosmic energy.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
